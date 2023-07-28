@@ -1,0 +1,5 @@
+This is to be a login page for Admins to view their list of Employees update profile and grant them access. 
+Once profile has been created for Employee and "Employee" access has been granted Employee can log in with cridentials provided or reset password by answering security question. 
+Once Employee is logged in they will have 2 buttons. 1- will display pop up to enter their work hours. 2-is to be added at a later time which will direct them to an internal Social Media platform where they can post questions, share ideas or any topic where others can interact by commeting on the Users posts. 
+Admin Dahboard is to have add funtion, delete, update employee personal info with timezone and update their web access along with granting them either Employee or Admin access to also be able to see admin screen on login. 
+Default Admin profile will have username and Password as "Admin"
