@@ -9,13 +9,6 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-    {% with messages = get_flashed_messages() %}
-    {% if messages %}
-    {% for message in messages %}
-    <p>{{message}}</p>
-    {% endfor %}
-    {% endif %}
-{% endwith %}
     <div class="box">
         <h1>Login</h1>
         <form action="/login" method="post" class="bg-light pt-2 pb-5 pl-4 pr-4 w-50 border-dark" id="form">
@@ -30,6 +23,13 @@
             <button class="btn btn-primary">submit</button>
         </form>
     </div>
-    </div>
+</div>
+{% with messages = get_flashed_messages() %}
+{% if messages %}
+{% for message in messages %}
+<p>{{message}}</p>
+{% endfor %}
+{% endif %}
+{% endwith %}
 </body>
 </html>
